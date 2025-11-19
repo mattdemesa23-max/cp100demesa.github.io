@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+            color: white;
+            margin: 0;
+            padding: 0;
+            background: #464442;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            margin: auto;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        nav {
+            background: #797979;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: 10px auto;
+        }
+
+        .header-title {
+            text-align: center;
+            padding: 20px;
+        }
+        .content {
+            position: relative;
+            background: #86807b;
+            padding: 10px 40px;            
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+            border-radius: 40px;
+            text-align: justify;
+            line-height: 2;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+        #about {
+            position: relative;
+        }
+
+        .home-link {
+            position: absolute;
+            bottom: 0;
+            right: 26px;
+        }
+
+        .home-link img {
+            height: 30px;
+            width: 30px;
+            filter: invert(100%);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1 id="home">My Portfolio</h1>
+        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/510168705_24013582504924590_7666826931294198125_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHFYpEADSsdxWrJXYXM0nLD8mV21sU22KTyZXbWxTbYpGT0Qy6juDyjJl8xLHCrI8TZESh3ZwCYULZzMbmpU_er&_nc_ohc=rC363LWV0e4Q7kNvwH6hWV7&_nc_oc=AdkRRlV6NeSxF2IFiSvTIxsYUQgYSqUjqoaaoJcxUCTP_W0YYmxa8AMiUv4DQtU1A9k&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=z6kPa15gWrElY-F4pyzf1A&oh=00_AfhlFi4ui0tk_iPP2tt2K8Q0FEwKW-7lyh6vkAes03OSbw&oe=69238EF7" alt="Matt de Mesa">
+        <h3>Matt Cyrus S. de Mesa</h3>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contacts</a>
+    </nav>
+
+    <section id="about">
+        <h1 class="header-title">About Me</h1>
+        <div class="content">
+            <p>Hello! I am Matt Cyrus de Mesa, an 18-year-old 1st year at Manuel S. Enverga University Foundation. I'm pursuing a Bachelor of Science in Computer Science specialized in Software Development. I'm currently developing technical expertise in programming languages such as Python and JavaScript, along with skills in software design, back-end programming and problem-solving. I'm passionate about creating efficient and user-focused applications, my career goal is to become a professional software developer specializing in innovative and impactful solutions. I'm aspiring to be an professional programmer equipped with skills to design efficient systems and driven to accept complex projects and take on challenging tasks.</p>
+            <a class="home-link" href="#home">
+                <img src="up-arrow.png" />
+            </a>
+        </div>
+    </section>
+            
+    <section id="skills">
+        <h1 class="header-title">Skills</h1>
+        <div class="content">       
+            <p>I am an undergraduate Computer Science student with a solid foundation in programming, problem-solving, and software development. My current skills include Python, Java, basic web development, and working with algorithms and data structures. I am also actively honing my abilities in full-stack development, database management, and software engineering practices to become a more versatile and efficient developer. As I continue learning, I aim to build real-world projects that strengthen both my technical expertise and my creativity.</p>
+            <h3>Technical Skills</h3>
+                <ul>
+                    <p>Python, Javascript, HTML, CSS</p>
+                </ul>
+            <h3>Soft Skills</h3>
+                <ul>
+                    <p>Communication, Critical Thinking, Leadership</p>
+                </ul>
+                <h3>Languages Spoken</h3>
+                <ul>
+                    <p>Filipino, English</p>
+                </ul>
+            <a class="home-link" href="#home">
+                <img src="up-arrow.png" />
+            </a>
+         </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="header-title">Contacts</h1>
+        <div class="content">
+            <p>Email: mattdemesa23@gmail.com</p>
+            <p>Phone: +63 916 245 5254</p>
+            <a href="https://www.facebook.com/mattcyrus.demesa" target="_blank" rel="noopener noreferrer">
+                Facebook: Matt de Mesa
+            </a>
+            <a class="home-link" href="#home">
+                <img src="up-arrow.png" />
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        CP101 Final Project
+    </footer>
+
+
+</body>
+</html>
